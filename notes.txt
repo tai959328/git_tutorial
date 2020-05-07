@@ -66,4 +66,20 @@ git checkout master
 git merge addingafunctionality -m 'merging with added functionality'
 	this will merge the addingafunctionality branch into the current branch
 
+git remote
+	lists the remote repositories we have
 
+git remote add origin https://github.com/tai959328/git_tutorial.git
+	adds the remote repository linked in the URL
+
+git push -u origin master
+	pushes our commited local repository to the remote one named origin
+	login will be required
+	once pushed to the remote repository, we can view the repository via https://github.com/tai959328/git_tutorial
+
+touch README.md
+	initializes a file called README.md
+	md stands for markdown and it helps the readme text display on on the github repository with nice formatting
+
+git push
+	pushes our commited local repository to the remote repository (likely to the last remote repository specified) 
