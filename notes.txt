@@ -86,3 +86,6 @@ git push
 
 git pull
 	pulls the remote repository (likely the last one specified) to the local repository
+
+git clone https://github.com/tai959328/git_tutorial.git
+	clones the remote repository for git_tutorial on the the current directory of Git Bash
