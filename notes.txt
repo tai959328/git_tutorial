@@ -52,4 +52,16 @@ touch .gitignore
 
 git branch addingafunctionality
 	creates a new branch called addingafunctionality off of the existing branch
-	the "git status" command will tell us what branch we are in
+	branching is useful when there are multiple devs working on different components/functionality
+	the "git status" command will tell us what branch we are in. We should be in the master branch to begin with
+
+git checkout addingafunctionality
+	brings us to the branch named addingafunctionality
+	changes and commits will now only apply to this branch
+
+git checkout master
+	brings us to the branch named master
+	notice changes and commits (including new files) are not applied to the master branch
+
+git merge addingafunctionality -m 'merging with added functionality'
+
