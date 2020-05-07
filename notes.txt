@@ -11,6 +11,7 @@ git init
 
 touch notes.txt
 	this will initialize a file called notes.txt
+	doesn't seem to overwrite if the file already exists
 
 git config --global user.name 'Tai Nguyen'
 	adds user name to git, likely for logging purposes
@@ -35,5 +36,20 @@ git add .
 	if we add files then save updates to those files while they are in the staging area, we'll get notification of changes that
 	aren't staged when we check the staging area. Adding the files into the staging area again will stage the latest saved files
 
-
+git commit -m '<insert change notes here>'
 	After commiting the changes we will have cleared the staging area
+
+clear
+	clears out the Git Bash console
+
+touch .gitignore
+	creates a file called .gitignore
+	can have file names and directories added to it to exclude them from staging and commiting
+	in this example we created a file called filetoignore.txt and added it into .gitignore
+	as can be tested, the filetoignore.txt file is not staged when the "git add ." is used 
+	directories can be added in .gitignore file by adding a line with "/<directoryname>
+	adding the line "*.txt" .gitignore with  would prevent all txt files from being staged
+
+git branch addingafunctionality
+	creates a new branch called addingafunctionality off of the existing branch
+	the "git status" command will tell us what branch we are in
