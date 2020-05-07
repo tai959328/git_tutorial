@@ -51,9 +51,9 @@ touch .gitignore
 	adding the line "*.txt" .gitignore with  would prevent all txt files from being staged
 
 git branch addingafunctionality
-	creates a new branch called addingafunctionality off of the existing branch
-	branching is useful when there are multiple devs working on different components/functionality
+	creates a new branch called addingafunctionality off of the current branch
 	the "git status" command will tell us what branch we are in. We should be in the master branch to begin with
+	branching is useful when there are multiple devs working on different components/functionality
 
 git checkout addingafunctionality
 	brings us to the branch named addingafunctionality
@@ -64,4 +64,6 @@ git checkout master
 	notice changes and commits (including new files) are not applied to the master branch
 
 git merge addingafunctionality -m 'merging with added functionality'
+	this will merge the addingafunctionality branch into the current branch
+
 
