@@ -83,3 +83,6 @@ touch README.md
 
 git push
 	pushes our commited local repository to the remote repository (likely to the last remote repository specified) 
+
+git pull
+	pulls the remote repository (likely the last one specified) to the local repository
