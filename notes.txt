@@ -1,0 +1,39 @@
+Tutorial: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+For the folder with files we want to start a repository on and right click on it, then select "Git Bash Here"
+
+A Git Bash window will open which looks like a command prompt. It will be ready to take commands for the folder desired
+
+The following are command lines that can be ran
+
+git init
+	this will initialize the repository for the folder, which allows us to start using git repository commands
+
+touch notes.txt
+	this will initialize a file called notes.txt
+
+git config --global user.name 'Tai Nguyen'
+	adds user name to git, likely for logging purposes
+
+git config --global user.email 'tai959328@gmail.com'
+	add user email to git, likely for logging purposes
+
+git add notes.txt
+	this adds the file to the staging area (aka index), which is the place changed files stay before they are committed locally
+
+git status
+	check to see what is in the staging area
+
+git rm --cached notes.txt
+	removes notes.txt from the staging area
+
+git add *.txt
+	adds any txt files into the staging area
+
+git add .
+	adds every file in the folder to the staging area
+	if we add files then save updates to those files while they are in the staging area, we'll get notification of changes that
+	aren't staged when we check the staging area. Adding the files into the staging area again will stage the latest saved files
+
+
+	After commiting the changes we will have cleared the staging area
