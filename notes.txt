@@ -1,13 +1,13 @@
 Tutorial: https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
-For the folder with files we want to start a repository on and right click on it, then select "Git Bash Here"
+For the folder with files we want to start a local repository, right click on it, then select "Git Bash Here"
 
 A Git Bash window will open which looks like a command prompt. It will be ready to take commands for the folder desired
 
 The following are command lines that can be ran
 
 git init
-	this will initialize the repository for the folder, which allows us to start using git repository commands
+	this will initialize the local repository for the folder, which allows us to start using git repository commands
 
 touch notes.txt
 	this will initialize a file called notes.txt
