@@ -66,7 +66,7 @@ git checkout master
 git merge addingafunctionality -m 'merging with added functionality'
 	this will merge the addingafunctionality branch into the current branch
 
-git remote
+git remote -v
 	lists the remote repositories we have
 
 git remote add origin https://github.com/tai959328/git_tutorial.git
