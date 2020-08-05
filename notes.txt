@@ -1,4 +1,5 @@
 Tutorial: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+Git download: https://git-scm.com/
 
 For the folder with files we want to start a local repository, right click on it, then select "Git Bash Here"
 
