@@ -71,12 +71,25 @@ git remote -v
 	lists the remote repositories we have
 
 git remote add origin https://github.com/tai959328/git_tutorial.git
-	adds the remote repository linked in the URL
+	adds the remote repository linked in the URL < this URL can be easily found in the main page of the repository on Github
+	to paste in Git Bash, click on top left icon of Git Bash window > Options > Keys > Shortcuts > check Ctrl+Shift+letter shortcuts
+	then use Ctrl+Shift+V to paste
+
+git remote rm <remote-name>
+	removes remote repository, useful when incorrectly established remote repository
 
 git push -u origin master
 	pushes our commited local repository to the remote one named origin
 	login will be required
 	once pushed to the remote repository, we can view the repository via https://github.com/tai959328/git_tutorial
+
+git pull --rebase origin master
+	if the GitHub repo has seen new commits pushed to it, while working locally, there will be the following error when trying to push updates
+	"error: failed to push some refs to...
+	hint: Updates were rejected because the tip of your current branch is behind
+	hint: its remote counterpart. Integrate the remote changes (e.g.
+	hint: 'git pull ...') before pushing again."
+	this git command should help with sorting this error out
 
 touch README.md
 	initializes a file called README.md
