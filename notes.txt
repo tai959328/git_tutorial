@@ -49,7 +49,7 @@ touch .gitignore
 	in this example we created a file called filetoignore.txt and added it into .gitignore
 	as can be tested, the filetoignore.txt file is not staged when the "git add ." is used 
 	directories can be added in .gitignore file by adding a line with "/<directoryname>
-	adding the line "*.txt" .gitignore with  would prevent all txt files from being staged
+	adding the line "*.txt" in .gitignore would prevent all txt files from being staged
 
 git branch addingafunctionality
 	creates a new branch called addingafunctionality off of the current branch
