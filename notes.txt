@@ -3,7 +3,7 @@ Git download: https://git-scm.com/
 
 For the folder with files we want to start a local repository, right click on it, then select "Git Bash Here"
 
-A Git Bash window will open which looks like a command prompt. It will be ready to take commands for the folder desired
+A Git Bash window will open what looks like a command prompt. It will be ready to take commands for the folder desired
 
 The following are command lines that can be ran
 
